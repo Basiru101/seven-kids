@@ -1,254 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About Us</title>
-    <link
-      rel="stylesheet"
-      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="./assets/styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"
-    />
-    <script src="./assets/main.js"></script>
-  </head>
-  <body>
-    <!--=====Section One========-->
-    <section class="header">
-      <nav>
-        <div class="nav-links" id="navLinks">
-          <i class="fa fa-times" onclick="hideMenu()"></i>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Program</a></li>
-            <li><a href="#">Events</a></li>
-            <a href="index.html"
-              ><img
-                class="imgrow"
-                src="./images/Seven Kids Code logo white-01-01 1.png"
-                alt=""
-            /></a>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">Contact</a></li>
-            <button id="regist">
-              Register <i class="fa-solid fa-arrow-right-to-bracket"></i>
-            </button>
-          </ul>
-          <hr />
-        </div>
-        <i class="fa fa-bars" onclick="showMenu()"></i>
-      </nav>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Navbar</title>
+  <link rel="stylesheet" href="./assets/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Program</a></li>
+        <li><a href="#">Events glgytpty</a></li>
+        <li><a href="index.html"><img class="logo" src="./images/Seven Kids Code logo white-01-01 1.png" alt="Logo" /></a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Gallery for</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><button id="regist">Register <i class="fa-solid fa-arrow-right-to-bracket"></i></button></li>
+      </ul>
+    </nav>
 
-      <div class="text-box">
-        <p><span class="textp">Tous sur Seven Kids code</span></p>
-        <h1>About Us</h1>
-        <a href="" class="hero-btn">Blog</a>
-        <a href="" class="hero-btn" id="hero-text"
-          >Programs <i class="fa-solid fa-angle-right"></i
-        ></a>
+    <!-- Centered Text Box -->
+    <div class="text-box">
+      <p><span class="textp">Tous sur Seven Kids code</span></p>
+      <h1>About Us</h1>
+      <a href="#" class="hero-btn">Blog</a>
+      <a href="#" class="hero-btn" id="hero-text">Programs <i class="fa-solid fa-angle-right"></i></a>
+    </div>
+  </header>
+
+  <!-- Unified Box for Social Icons -->
+  <div class="box-icons">
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+      <a href="#"><i class="fab fa-facebook"></i> Facebook</a>
+      <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+      <a href="#"><i class="fab fa-youtube"></i> YouTube</a>
+      <a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      <a href="#"><i class="fab fa-github"></i> GitHub</a>
+    </div>
+  </div>
+
+  <section class="spider-container">
+    <div class="spider-img">
+      <div class="img1">
+        <img src="./images/spider1.png" alt="">
       </div>
-    </section>
-
-    <section class="section-holder">
-      
-   
-      <div class="image-holder left">
-        <img class="left" src="./images/Layer_1.png" alt="" />
+      <div class="img2">
+        <span class="span1"></span>
+        <img src="./images/estelle.png" alt="">
+        <span class="span2">dfg</span>
       </div>
-      <div class="image-holder right">
-        <img src="./images/Layer_1.png" alt="" />
+      <div class="text-col">
+        <p id="text-id">Word from the promoter</p>
+        <h2>The highest result of education is tolerance</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non felis erat. Donec in orci vel arcu faucibus luctus. Sed vel libero ac velit dignissim cursus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+        <a href="#" class="read-more">Read More <i class="fa-solid fa-angle-right"></i></a>
       </div>
-      <div class="container-box">
-
-        <div class="containerall">
-          <div class="holder-parent">
-            
-            <div class="box-1"></div>
-            <div class="box-2"></div>
-
-            <div class="box-3">
-              <h1 class="tbox-3">Estelle Yomba</h1>
-              <h5 class="hbox-3">Tech Entrepreneur</h5>
-              <p class="pbox-3">“Lorem ipsum dolor sit amet, consectetur
-                 adipiscing elit. Amet, venenatis.”</p>
-
-                 <span><i class="fa-brands fa-linkedin"></i></span>
-                 <span><i class="fa-brands fa-facebook"></i>  </span>
-            </div>
-
-            <div class="container-boxall">
-              <img class="texto" src="../images/estelle.png" alt="" />
-            </div>
-          </div>
-  
-          <div class="textpara">
-            <header class="textpara-head">Word from the promoter</header>
-            <h1>
-              The highest result of <br />
-              education is tolerance
-            </h1>
-            <p>
-              Seven Kids Code prepares children between the ages of 4 to 18 for <br>
-              tomorrow’s tech-oriented world by giving them the foundations in 
-              digital tools, programming as well as a gentle introduction to
-              computer science, electronics and robotics.
-            </p>
-
-            <a href="" class="hero-btn" id="hero-text">See More <i class="fa-solid fa-angle-right"></i></a>
-  
-            
-          </div>
-        </div>
-      </div>
-
-      <hr>
-    </section>
+    </div>
+    <div class="img3">
+      <img src="./images/spider.png" alt="">
+    </div>
+  </section>
 
 
-    <!---===========Timeline section Three============-->
-
-    <section class="timeline-section">
-      <div class="timeline-items">
-        <div class="timeline-item">
-          <div class="timeline-dot"></div>
-          <div class="timeline-date">2023</div>
-          <div class="timeline-content">
-            <h3>TAbout Seven kids code</h3>
-            <p>Seven Kids Code prepares children between the ages of 4 to 
-              18 for tomorrow’s tech-oriented world by giving them the foundations 
-              in digital tools, programming as well as a gentle 
-              introduction to computer science, electronics and robotics.</p>
-          </div>
-        </div>
-
-        <div class="timeline-item">
-          <div class="timeline-dot"></div>
-          <div class="timeline-date">2023</div>
-          <div class="timeline-box4"></div>
-          <div class="timeline-box5"></div>
-          <div class="timeline-content">
-            <h3>About Seven kids code</h3>
-            <p>Seven Kids Code prepares children between the ages of 4 to 
-              18 for tomorrow’s tech-oriented world by giving them the foundations 
-              in digital tools, programming as well as a gentle 
-              introduction to computer science, electronics and robotics.</p>
-          </div>
-        </div>
-
-        <div class="timeline-item">
-          <div class="timeline-dot"></div>
-          <div class="timeline-date">2023</div>
-          <div class="timeline-content">
-            <h3>About Seven kids code</h3>
-            <p>Seven Kids Code prepares children between the ages of 4 to 
-              18 for tomorrow’s tech-oriented world by giving them the foundations 
-              in digital tools, programming as well as a gentle 
-              introduction to computer science, electronics and robotics.</p>
-          </div>
-        </div>
-
-        <div class="timeline-item">
-          <div class="timeline-dot"></div>
-          <div class="timeline-date">2023</div>
-          <div class="timeline-content">
-            <h3>About Seven kids code</h3>
-            <p>Seven Kids Code prepares children between the ages of 4 to 
-              18 for tomorrow’s tech-oriented world by giving them the foundations 
-              in digital tools, programming as well as a gentle 
-              introduction to computer science, electronics and robotics.</p>
-          </div>
-        </div>
-
-        <div class="timeline-item">
-          <div class="timeline-dot"></div>
-          <div class="timeline-date">2023</div>
-          <div class="timeline-content">
-            <h3>About Seven kids code</h3>
-            <p>Seven Kids Code prepares children between the ages of 4 to 
-              18 for tomorrow’s tech-oriented world by giving them the foundations 
-              in digital tools, programming as well as a gentle 
-              introduction to computer science, electronics and robotics.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-    <section class="container-handle">
-
-
-      <div class="image-handle left1">
-        <img class="left" src="./images/Layer_1.png" alt="" />
-      </div>
-      <div class="image-handle right1">
-        <img src="./images/Layer_1.png" alt="" />
-      </div>
-
-
-      <div class="container-flex">
-        <div class="image1-flex1">
-          <img src="./images/kids.png" alt="">
-        </div>
-        <div class="image1-flex">
-          <div>
-            <img src="./images/group1.png" alt="">
-          </div>
-          <div>
-            <img src="./images/group2.png" alt="">
-          </div>
-        </div>
-
-        <div class="others">
+  <section class="timeline-section">
+    <div class="timeline-items">
+      <div class="timeline-item right-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2023</div>
+        <div class="timeline-content">
           <h3>About Seven kids code</h3>
-          <h1>The highest result of <br> education is tolerance</h1>
-          <p>Seven Kids Code prepares children between the ages 
-            of 4 to 18 for tomorrow’s tech-oriented world by giving them the foundations in digital tools, programming as well as a gentle 
-            introduction to computer science, electronics and robotics.</p>
-            <a href="" class="btnt" id="hero-text">See More <i class="fa-solid fa-angle-right"></i></a>
+          <p>Seven Kids Code prepares children between the ages of 4 to 
+            18 for tomorrow’s tech-oriented world by giving them the foundations 
+            in digital tools, programming as well as a gentle 
+            introduction to computer science, electronics, and robotics.</p>
         </div>
       </div>
-    </section>
-
-    <section class="logos">
-      <div class="container-logos">
-        <div class="logo1">
-          <img src="./images/Logo1.png" alt="">
-        </div>
-
-        <div class="logo2">
-          <img src="./images/Logo2.png" alt="">
-        </div>
-
-        <div class="logo3">
-          <img src="./images/Logo3.png" alt="">
-        </div>
-
-        <div class="logo4">
-          <img src="./images/Logo4.png" alt="">
-        </div>
-
-        <div class="logo5">
-          <img src="./images/Logo5.png" alt="">
-        </div>
-
-        <div class="logo6">
-          <img src="./images/Logo6.png" alt="">
+  
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2023</div>
+        <div class="timeline-content">
+          <h3>About Seven kids code</h3>
+          <p>Seven Kids Code prepares children between the ages of 4 to 
+            18 for tomorrow’s tech-oriented world by giving them the foundations 
+            in digital tools, programming as well as a gentle 
+            introduction to computer science, electronics, and robotics.</p>
         </div>
       </div>
-    </section>
+  
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2023</div>
+        <div class="timeline-content">
+          <h3>About Seven kids code</h3>
+          <p>Seven Kids Code prepares children between the ages of 4 to 
+            18 for tomorrow’s tech-oriented world by giving them the foundations 
+            in digital tools, programming as well as a gentle 
+            introduction to computer science, electronics, and robotics.</p>
+        </div>
+      </div>
+  
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2023</div>
+        <div class="timeline-content">
+          <h3>About Seven kids code</h3>
+          <p>Seven Kids Code prepares children between the ages of 4 to 
+            18 for tomorrow’s tech-oriented world by giving them the foundations 
+            in digital tools, programming as well as a gentle 
+            introduction to computer science, electronics, and robotics.</p>
+        </div>
+      </div>
+  
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2023</div>
+        <div class="timeline-content">
+          <h3>About Seven kids code</h3>
+          <p>Seven Kids Code prepares children between the ages of 4 to 
+            18 for tomorrow’s tech-oriented world by giving them the foundations 
+            in digital tools, programming as well as a gentle 
+            introduction to computer science, electronics, and robotics.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
 
-    <script src="./assets/main.js"></script>
-  </body>
+  <script>
+    // You can add any JavaScript functionality here if needed
+  </script>
+</body>
 </html>
