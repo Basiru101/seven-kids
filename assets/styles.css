@@ -292,46 +292,46 @@ nav ul li a {
 /* Timeline Section Styles */
 .timeline-section {
   padding: 40px 20px;
-  background-color: #f9f9f9; /* Light background for contrast */
-  display: flex; /* Enable flexbox */
-  justify-content: center; /* Center the timeline */
+  background-color: #f9f9f9; 
+  display: flex; 
+  justify-content: center; 
 }
 
 /* Timeline Items Wrapper */
 .timeline-items {
   display: flex;
-  flex-wrap: wrap; /* Allow items to wrap */
-  justify-content: space-between; /* Space between items */
-  max-width: 800px; /* Max width for the timeline */
-  margin: 0 auto; /* Center the timeline horizontally */
+  flex-wrap: wrap; 
+  justify-content: space-between; 
+  max-width: 800px; 
+  margin: 0 auto; 
   position: relative;
 }
 
 /* Individual Timeline Item */
 .timeline-item {
   display: flex;
-  align-items: flex-start; /* Align items at the top */
+  align-items: flex-start; 
   position: relative;
-  margin-bottom: 30px; /* Space between timeline items */
-  flex: 1 1 45%; /* Flex property for responsiveness */
-  max-width: calc(50% - 20px); /* Max width to maintain spacing */
+  margin-bottom: 30px; 
+  flex: 1 1 45%; 
+  max-width: calc(50% - 20px); 
 }
 
 /* Vertical Line */
 .timeline-item::before {
   content: '';
   position: absolute;
-  left: -10px; /* Position to the left of the item */
+  left: -10px; 
   top: 0;
-  width: 2px; /* Line width */
-  height: 100%; /* Full height of the item */
-  background-color: #007bff; /* Line color */
+  width: 2px; 
+  height: 100%; 
+  background-color: #007bff; 
 }
 
 /* Timeline Dot */
 .timeline-dot {
   position: absolute;
-  left: -25px; /* Positioning the dot to the left of the timeline */
+  left: -25px; 
   top: 0;
   width: 20px;
   height: 20px;
@@ -343,19 +343,19 @@ nav ul li a {
 .timeline-date {
   font-size: 14px;
   color: #777;
-  margin-right: 15px; /* Space between date and content */
-  flex-shrink: 0; /* Prevent date from shrinking */
-  width: 80px; /* Fixed width for the date */
+  margin-right: 15px; 
+  flex-shrink: 0; 
+  width: 80px; 
 }
 
 /* Timeline Content Styles */
 .timeline-content {
-  background: #fff; /* White background for content */
+  background: #fff; 
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  width: calc(100% - 50px); /* Adjust width based on dot and date */
-  margin-left: 20px; /* Add space between date and content */
+  width: calc(100% - 50px); 
+  margin-left: 20px; 
 }
 
 /* Headings */
@@ -372,33 +372,79 @@ nav ul li a {
   line-height: 1.5;
 }
 
+.col1 img{
+  width: 400px;
+  position: relative;
+  top: 0;
+  right: 150px;
+}
+
+.col2 img{
+  width: 430px;
+  position: relative;
+  top: 0;
+  right: 100px;
+}
+
+.text-col{
+  position: relative;
+  top: -160px;
+  margin-bottom: 40px;
+  
+}
+.text-col h4{
+  font-size: 30px;
+  color: #5e3d98;
+}
+
+
+
+.container-logos {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-evenly; 
+  align-items: center; 
+  gap: 20px; 
+}
+
+.container-logos div {
+  flex: 1 1 150px; 
+  max-width: 200px; 
+  text-align: center; 
+}
+
+.container-logos img {
+  max-width: 100%; 
+  height: auto; 
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .timeline-item {
-    flex-direction: column; /* Stack elements on smaller screens */
-    align-items: flex-start; /* Align to start */
-    max-width: 100%; /* Full width on smaller screens */
+    flex-direction: column; 
+    align-items: flex-start; 
+    max-width: 100%; 
   }
 
   .timeline-dot {
-    left: 10px; /* Adjust dot position on small screens */
-    top: 10px; /* Adjust top position */
+    left: 10px; 
+    top: 10px; 
   }
 
   .timeline-date {
-    left: -5px; /* Adjust date position */
-    margin-right: 0; /* Reset margin on small screens */
+    left: -5px; 
+    margin-right: 0; 
   }
 
   .timeline-content {
-    width: auto; /* Reset width for smaller screens */
+    width: auto; 
   }
 
-  /* Adjust vertical line for smaller screens */
+  
   .timeline-item::before {
-    left: 15px; /* Move line closer to the dot */
-    height: auto; /* Auto height for the vertical line */
-    top: 30px; /* Start the line below the date */
+    left: 15px; 
+    height: auto; 
+    top: 30px; 
   }
 }
 
